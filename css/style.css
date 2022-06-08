@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@keyframes blinker {
+    from{ color:black; }
+    to{ color:red;
+         font-weight: bolder; }
+}
+:root {
+    --main-bg-color: #131921;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 7vh;
+    font-family: 'Joan', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: var(--main-bg-color);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    height: 7.848837209302325vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 0px 0px 10.662790697674419vh;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.logo img {
+    height: 7.848837209302325vh;
+    padding: 0.5813953488372093vh;
+    margin: 5vh;
+}
+
+.container {
+    min-height: calc(100vh - 7.848837209302325vh - 7vh);
+    background-color: #EAEDED;
+    display: flex;
+}
+
+.bg {
+    width: 99vw;
+    margin: 1.0174418604651163vh;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0.3vh;
+
+}
+
+.search input {
+    width: 70.93vh;
+    height: 4.434vh;
+    border-radius: 0.5813953488372093vh;
+    margin: 0px 0px 0px 23vh;
+    border: 0.4vh solid orange;
+}
+
+.container1 {
+    height: 54vh;
+    background: white;
+    width: 25vw;
+    margin: 12px;
+    padding: 7px;
+    display: inline-block;
+}
+
+.container .container1 .img1 {
+    width: 178px;
+    height: 123px;
+}
+
+.container .container1 .img2 {
+    width: 178px;
+    height: 124px;
+    position: relative;
+    bottom: 146px;
+    left: 194px;
+}
+
+.container .container1 .img3 {
+    width: 178px;
+    height: 124px;
+    position: relative;
+    bottom: 135px;
+    left: 0px;
+}
+
+.container .container1 .img4 {
+    width: 178px;
+    height: 124px;
+    position: relative;
+    bottom: 281px;
+    left: 194px;
+}
+.container2 {
+    height: 54vh;
+    background: white;
+    width: 25vw;
+    margin: 12px;
+    padding: 7px;
+}
+.container .container2 .img5 {
+    height: 366px;
+    padding: 8px;
+}
+.container3{
+    height: 54vh;
+    background: white;
+    width: 42vw;
+    margin: 12px;
+    padding: 7px;
+    display: inline-block;
+}
+.container .container3 .img6 {
+    height: 337px;
+    padding: 0px;
+}
+.container .container3 .container3_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .container3 .container3_2 .cost .cut{
+    text-decoration:line-through;
+}
+.container .container3 .container3_2 .cost .blink{
+    color: black;
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+}
+.container4{
+    background-color: white;
+    height:24vh ;
+    position: relative;
+    bottom: 160px;
+}
+.container4 .container4_1{
+    display: flex;
+}

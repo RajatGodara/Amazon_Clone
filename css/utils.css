@@ -1,0 +1,39 @@
+.flex-all-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    cursor: pointer;
+    padding: 0.29069767441860467vh;
+    border-radius: 1vh;
+    border: 0.4vh solid orange;
+}
+.btn:hover{
+    height: 6vh ;
+    width: 5.6vh;
+}
+nav ul .cart img{
+    height: 5.3vh;
+    padding: 0px 8vh 0.7267441860465116vh ;
+}
+.container .head{
+    padding: 9px;
+    font-size: large;
+}
+.container .container3 .container3_2 .shop{
+    cursor: pointer;
+    color: black;
+    height: 27px;
+    width: 63px;
+    background: orange;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+.container .container3 .container3_2 .shop:hover{
+    height: 30px;
+    width: 66px;
+}
+.container4 .container4_1 img{
+    padding: 16px;
+}
